@@ -37,3 +37,11 @@ Activities, Services, Broadcast Receivers and Content Providers.
 **What is AAPT (Android Asset Packaging Tool)?** 
 
 Its part of the SDK and allows you to view, create, and update Zip-compatible archives (zip, jar, apk).
+
+**What is APK?**
+
+APK stands for Android Application Package. An APK file is the file format used for installing software on the Android operating system. It is a compressed package containing the whole project.
+
+**What is the Android Context?**
+
+It is an abstract class whose implementation is provided by the Android system. It gives the context of the current state of the application or the object.
