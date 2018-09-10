@@ -53,3 +53,15 @@ It is a software application running on the Android Platform. It is a collection
 **What is NDK?**
 
 NDK stands for Native Development Kit. NDK is a toolset that lets you implement parts of your app using native-code languages such as C and C++.
+
+**When does Android App Not Responding (ANR) happen?**
+
+ANR happens when the main thread is blocked for a few seconds. To avoid it, you should not use the main thread to read or write files, connect to the internet, and operate with databases.
+
+**Which programming language is the Android framework written in?**
+
+The Application and Framework layers are written in Java. The Drivers and the library layer are written in C and C++
+
+**What devices may Android be run on?** 
+
+Android may run on all electronic devices if the support Android hardware configurations. Example: cars, phones, laptops, watches, tvs, head phones, and so on.
