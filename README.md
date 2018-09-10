@@ -49,3 +49,7 @@ It is an abstract class whose implementation is provided by the Android system. 
 **What is an Android App?**
 
 It is a software application running on the Android Platform. It is a collection of different activities, services, receivers and listeners. It has a single manifest and is compiled into a single .apk file.
+
+**What is NDK?**
+
+NDK stands for Native Development Kit. NDK is a toolset that lets you implement parts of your app using native-code languages such as C and C++.
