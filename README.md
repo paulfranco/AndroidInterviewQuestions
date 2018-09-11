@@ -120,7 +120,41 @@ An Android library compiles into an Android Archive (AAR) file that you can use 
 
 Continuous integration systems let you automatically build and test your app every time you check in updates to your source control system.
 
+**Android Studio supports three types of code completion. Which are they?**
+
+Basic, Smart, and Statement completion.
+
+**What is Basic completion?**
+
+Basic completion displays basic suggestions for variables, types, methods, expressions, and so on. If you call basic completion twice in a row, you see more results, including private members and non-imported static members.
+
+**What is Smart Completion?**
+
+Smart completion displays relevant options based on context. Smart Completion is aware of the expected type and data flows. If you call Smart Completion twice in a row, you see more results, including chains.
+
+**What is Statement Completion?**
+
+Statement Completion completes the current statement for you, adding missing parentheses, brackets, braces, formatting, etc.
+
+**What is lint?**
+
+Lint is a code scanning tool that can help you to identify and correct problems with the structural quality of your code without having to execute the app or write test cases.
 
 
+**What is the Asset Studio tool used for?**
+
+The Asset Studio tool helps you generate your own app icons from material icons, custom images, and text strings. It generates a set of icons at the appropriate resolution for each generalized screen density that your app supports.
+
+**Android Studio can convert PNG, JPG, BMP, or static GIF images to WebP format. What is the WebP format?**
+
+WebP is an image file from Google that provides lossy compression (like JPEG) as well as transparency (like PNG) but can provide better compression than either JPEG or PNG.
+
+**How can you localize the UI of your app?**
+
+The Translations Editor provides a consolidated and editable view of all of your default translated app texts, so that you can view, manage, and localize all of your string resources in one place.
+
+**How can you make your app content searchable by Google?**
+
+You can use Android App Links - HTTP URLS that bring users directly to specific content in your Android App.
 
 
