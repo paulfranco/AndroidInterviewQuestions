@@ -76,4 +76,51 @@ Yes. Android Studio supports Git, GitHub, CVS, Mercurial, Subversion, and Google
 
 The Logcat window displays system messages, such as when a garbage collection occurs, or messages that you added in your app with the Log class.
 
+**If you want to profile your app's CPU, memory, and network performance, how can you do it inside the Android Studio?**
+
+You can do it via the Android Profiler.
+
+**Can you debug your app on the connected device?**
+
+Yes, but you need to enable debugging in the device's developer options.
+
+**What is Pixel Perfect?**
+
+Pixel Perfect is a tool built into the Android Device Monitor that displays a magnified view of your app so you can inspect the position and properties of individual pixels in your layout, and help match your app's layout to design mockups.
+
+**How can you capture a bug report from your device?**
+
+You can achieve this either via the Take bug report developer option on the device, the Android Emulator menu, or the adb bug report command on your development machine.
+
+**What is the Network Profiler used for?**
+
+The Newtwork Profiler lets you examine how and when your app transfers data, and optimizes the underlying code appropriately.
+
+**How can you identify memory leaks and memory churn that can lead to stutter, freezes, and even app crashes?**
+
+Memory leaks and memory churn can be identified via the Memory Profiler, a component in the Android Profiler.
+
+**Which tool lets you profile your battery usage?**
+
+Batterystats, is a tool included in the Android Framework that collects battery data on your device.
+
+**What options does the Hierarchy Viewer give you?**
+
+The Hierarchy Viewer allows you to measure the layout speed for each view in your layout hierarchy, so you can find performance bottlenecks caused by the structure of your view hierarchy.
+
+**Which version of Android Studio lets you add Kotlin code?**
+
+Android Studio 3 and higher.
+
+**What is an Android library compiled into?**
+
+An Android library compiles into an Android Archive (AAR) file that you can use as a dependency for an Android App module.
+
+**Why do you need to set up Continuous integration for your app?**
+
+Continuous integration systems let you automatically build and test your app every time you check in updates to your source control system.
+
+
+
+
 
