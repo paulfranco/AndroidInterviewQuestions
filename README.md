@@ -65,3 +65,15 @@ The Application and Framework layers are written in Java. The Drivers and the li
 **What devices may Android be run on?** 
 
 Android may run on all electronic devices if the support Android hardware configurations. Example: cars, phones, laptops, watches, tvs, head phones, and so on.
+
+## **Android Studio**
+
+**Does Android Studio support version control Systems?**
+
+Yes. Android Studio supports Git, GitHub, CVS, Mercurial, Subversion, and Google Cloud Source Repositories.
+
+**What do you use the Logcat window in Android Studio for?**
+
+The Logcat window displays system messages, such as when a garbage collection occurs, or messages that you added in your app with the Log class.
+
+
