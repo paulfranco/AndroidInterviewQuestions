@@ -167,7 +167,30 @@ An application can only have one manifest file. However, there is an exception i
 
 The package name serves as a unique identifier of the application.
 
+**What are some of the components of the application that are identified in the manifest?**
 
+Activities, services, broadcast receivers, and content providers.
+
+**Why do certain permissions need to be defined in the app's manifest?**
+
+By default, no application is allowed to perform any operations that would adversely impact other applications, the operating system, or the user. For example, reading or writing the user's private data, reading or writing another application's files, performing network access, keeping the device and so on. The permission allows access to the protected parts of the API. It also allows the application to interact with other applications.
+
+**What are some permissions that may be included in the manifest file?**
+
+INTERNET, READ_LOGS, CALL_EMERGENCY_NUMBERS, SET_WALLPAPER, DEVICE_POWER.
+
+**What can be contained within the activity tag in the app's manifest?**
+
+Information about: activities, services, receivers, providers, and used libraries.
+
+**What are the 2 required elements within the manifest's declaration?**
+
+Manifest and application elements.
+
+
+
+
+  
 
 
 
