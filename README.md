@@ -157,4 +157,17 @@ The Translations Editor provides a consolidated and editable view of all of your
 
 You can use Android App Links - HTTP URLS that bring users directly to specific content in your Android App.
 
+## **The Manifest File**
+
+**How many manifests can an application have?**
+
+An application can only have one manifest file. However, there is an exception in the case that a 3rd party library is added. In this case the library has a manifest file as well.
+
+**Why is the package name of the application important?**
+
+The package name serves as a unique identifier of the application.
+
+
+
+
 
