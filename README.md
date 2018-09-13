@@ -213,6 +213,14 @@ The debug version is used for testing, whereas the release version is used for t
 
 Typical product flavors are paid and free versions of your app.
 
+**How many build.grade do you have in a blank-generated Androi project?**
+
+There are 2. One top-level gradle file that usually contains common configs for all modules and one on a module level (the app module, by default). This is the build file of your specific module.
+
+**If you want to us the Retrofit library in your project, in which section of the app's build.gradle file do you need to define it?**
+
+Any dependencies need to be defined in the dependencies block of the build.gradle file.
+
 
 
 
