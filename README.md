@@ -221,6 +221,16 @@ There are 2. One top-level gradle file that usually contains common configs for 
 
 Any dependencies need to be defined in the dependencies block of the build.gradle file.
 
+**Gradle is a DSL. What is a DSL?**
 
+DSL stands for Domain Specific Language. DSL is a language that is written to deal with a specific domain or set of concerns (SQL, XML, HTML).
+
+**Gradle is a DSL that is written on top of what languages?**
+
+Groovy and Java.
+
+**If you want to do customization in your gradle build file, what language do you use?**
+
+The build file supports Groovy syntax.
 
 
