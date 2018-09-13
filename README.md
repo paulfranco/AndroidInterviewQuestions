@@ -187,10 +187,32 @@ Information about: activities, services, receivers, providers, and used librarie
 
 Manifest and application elements.
 
+## **Gradle**
 
+**Does Android Studio have an integrated build system?**
 
+No. Android Studio delegates the entire build process to Gradle. Gradle turns all your sources and resources into APK files that you can install on your device.
 
+**Why is it not necessary to additionally install Gradle when creating an Android project?**
+
+It is not necessary to additionally install Gradle because Android Studio provides the Gradle runtime, and the Gradle scripts are automatically created.
+
+**What is the main purpose of the Gradle wrapper for Android Studio?**
+
+The Gradle wrapper is responsible to the Gradle version used to build your project. The version of Gradle could be specified in the configuration file called gradle-wrapper.properties
   
+**What can you run Gradle task in Android Studio?**
+
+There are two different ways: 1. from the terminal. 2. from the Gradle pane on the right of the window.
+
+**What is the difference between the debug and the release version of your app?**
+
+The debug version is used for testing, whereas the release version is used for the Google Play Store.
+
+**Give examples for product flavors that can be defined in the productFlavors script block of your app's build.gradle file**
+
+Typical product flavors are paid and free versions of your app.
+
 
 
 
