@@ -235,4 +235,6 @@ The build file supports Groovy syntax.
 
 ## **Intents**
 
+**What is an intent?**
+
 An intent is an object you can use to request an action from another app component (such as Activities, Services, Broadcast Receives, and Content Providers).
