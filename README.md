@@ -238,3 +238,7 @@ The build file supports Groovy syntax.
 **What is an intent?**
 
 An intent is an object you can use to request an action from another app component (such as Activities, Services, Broadcast Receives, and Content Providers).
+
+**In which general cases can you use intents?**
+
+You can use an intent when you want to start an Activity, when you want to start a service, or deliver a broadcast
