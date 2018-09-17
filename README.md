@@ -241,4 +241,8 @@ An intent is an object you can use to request an action from another app compone
 
 **In which general cases can you use intents?**
 
-You can use an intent when you want to start an Activity, when you want to start a service, or deliver a broadcast
+You can use an intent when you want to start an Activity, when you want to start a service, or deliver a broadcast.
+
+**What is the difference between an implicit and explicit intent?**
+
+When you ask a specific component from within the app by name (explicitly), you use an explicit intent (example: starting a ne Activity). When an action is asked from another app, you don't specify it by name, so you use an implicit intent (example: loading a webpage bia the Uri object or loading the Camera).
