@@ -246,3 +246,11 @@ You can use an intent when you want to start an Activity, when you want to start
 **What is the difference between an implicit and explicit intent?**
 
 When you ask a specific component from within the app by name (explicitly), you use an explicit intent (example: starting a ne Activity). When an action is asked from another app, you don't specify it by name, so you use an implicit intent (example: loading a webpage via the Uri object or loading the Camera).
+
+**What kind of information can be contained within an intent?**
+
+The name of the component to start (if explicit). A string that specifies the general action to be performed. The URI that references the data to be edited, loaded and so on. A string with the category of the kind of component that should handle the intent (launcher/browsable). Extras with additional information which can be transfered from one intent to another. Additional flags with extra instructions to the Android system.
+
+**What happens when there is more than one app that responds to your implicit intent?**
+
+The user can select which app to use and the user may make that app the default choice for the action (always SEND via an email) or a chooser dialog can be shown for the user to specify their choice everytime of which app should be used.
