@@ -254,3 +254,7 @@ The name of the component to start (if explicit). A string that specifies the ge
 **What happens when there is more than one app that responds to your implicit intent?**
 
 The user can select which app to use and the user may make that app the default choice for the action (always SEND via an email) or a chooser dialog can be shown for the user to specify their choice everytime of which app should be used.
+
+**What is the intent-filter element?**
+
+The intent-filter element is an expression in the app's manifest file that specifies the type of intents the component would like to receive. Each intent-filter specifies the type of intents it accepts based on the intent's action, data, and category.
