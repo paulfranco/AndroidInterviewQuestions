@@ -258,3 +258,17 @@ The user can select which app to use and the user may make that app the default 
 **What is the intent-filter element?**
 
 The intent-filter element is an expression in the app's manifest file that specifies the type of intents the component would like to receive. Each intent-filter specifies the type of intents it accepts based on the intent's action, data, and category.
+
+**What is a pending intent?**
+
+A pending intent is an object that wraps another intent. It can also be used as a token that you give to a foreign application which allows the foreign application to use you application's permissions. By giving a PendingIntent to another application, you grant it the right to perform the operation you have specified as if the other application was you initial application.
+
+**What is meant by intent resolution?**
+
+The handling of the implicit intent when an implicit intent to start an activity is received, the system searches for the best activity for the intent, by checking the action, the data, and the intent category. The whole process of checking is called intent resolution.
+
+**What is sticky intent?**
+
+A sticky intent sticks with Android for future broadcast listeners. For example, If BATTERY_LOW occurs, the intent sticks to Android. If the BATTERY_LOW occurs one more time, the intent will be triggerred.
+
+## **Activities**
