@@ -288,3 +288,35 @@ In the case of startActivityForResult() you expect something to be returned from
 **In which phase of the Activity's lifecycle should the global state be declared (as the layout, for example)?**
 
 The essential components of the activity need to be initialized in the onCreate() callback. We define the layout withing the setContentView().
+
+**What are the phases of an Activity's lifecyscle?**
+
+onCreate(), onStart(), onRestart(), onResume(), onPause(), onStop(), and onDestroy().
+
+**Between which calls does the entire cycle of the Activity happen?**
+
+The entire cycle of the Activity happens between onCreate(), where the resources are created, and onDestroy() where the resources are released.
+
+**Between which calls can the user see and interact with the activity?**
+
+The user can see and interact with the activity between onStart(), which is the visible phase afte the activity has been created and onStop() when a new activity is started.
+
+**How can a destroyed activitiy's state be saved?**
+
+We can achieve this within the onSavedInstanceState() where we can use a Bundle to store certain information.
+
+**If nothing is specified, what happens when some of the device's configurations are changed at runtime?**
+
+In the event that the screen orientation is changed the activity is recreated. onDestroy() is called followed by onCreate(). A way to handle this is by including the configChanges attribute to the certain activity.
+
+**Which method is called to shut down an activity?**
+
+There are 2 methods that may be called: finish() which is called to finish the activity itself, and finishActivity() to allow others to kill the activity.
+
+**What is seamlessness? How is it applicable in Android?**
+
+Seamlessness refers to non-interrupted flow of the application. It is up to the developer to handle all possible hinderances for the user, like low battery, configuration changes, and permissions needed.
+
+## **Fragments**
+
+**What are Fragments?**
