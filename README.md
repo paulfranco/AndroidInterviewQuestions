@@ -272,3 +272,18 @@ The handling of the implicit intent when an implicit intent to start an activity
 A sticky intent sticks with Android for future broadcast listeners. For example, If BATTERY_LOW occurs, the intent sticks to Android. If the BATTERY_LOW occurs one more time, the intent will be triggerred.
 
 ## **Activities**
+
+**What is an activity in an Android Application?**
+
+An activity is an application component which is visualized in a separate screen. Usually, an application consists of several activities.
+
+**Can you explain the "last in, first out" stack mechanism in the context of activities?**
+
+In an application, each activity can start another activity. When the new activity is started, the old activity is stopped but is also preserved by the system so that when the user presses the back button, the LAST activity that was visible is the FIRST to appear again.
+
+**What is the difference between startActivity() and startActivityForResult()?**
+
+In the case of startActivityForResult() you expect something to be returned from the started activity. In order for something to be received, we need to implement the onActivityResult() callback method.
+
+**In which phase of the Activity's lifecycle should the global state be declared (as the layout, for example)?**
+
