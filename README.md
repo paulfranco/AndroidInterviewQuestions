@@ -287,3 +287,4 @@ In the case of startActivityForResult() you expect something to be returned from
 
 **In which phase of the Activity's lifecycle should the global state be declared (as the layout, for example)?**
 
+The essential components of the activity need to be initialized in the onCreate() callback. We define the layout withing the setContentView().
