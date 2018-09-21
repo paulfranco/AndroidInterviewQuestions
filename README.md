@@ -320,3 +320,27 @@ Seamlessness refers to non-interrupted flow of the application. It is up to the 
 ## **Fragments**
 
 **What are Fragments?**
+
+Fragments are two or more activitives on the screen at the same time. Fragments have their own layout. Fragments can be added/removed from the Activity at run time. Fragments have their own lifecycle which are dependent of the Activity's lifecycle. Fragments must be embedded in an Activity. Fragments can be re-used in multiple activities.
+
+**What is the difference between DialogFragment, ListFragment, and PreferenceFragment?**
+
+All of them are subclasses that extend the basic Fragment class. PreferenceFragment displays a hierarchy of Preference objects as a list. ListFragment displays a list of item that are managed by an adapter. DialogFragment displays a floating dialog.
+
+**Which is the interface for interacting with Fragment objects inside of an Activity?**
+
+Fragment Manager.
+
+**What is Fragment Transaction?**
+
+The ability to add, romove, replace, and perform other actions with fragments on user's interaction. Each of these changes is called a transaction. In order to achieve it, you need the API's in FragmentTransaction.
+
+**Can the fragment be accessed with the Activity it is in?**
+
+Yes. You can access the fragment using getActivity().
+
+**Which are the states in which a fragment can exist?**
+
+Resumed, Paused, and Stopped.
+
+
