@@ -343,4 +343,27 @@ Yes. You can access the fragment using getActivity().
 
 Resumed, Paused, and Stopped.
 
+**What is the difference between a fragment and an activity in terms of their lifecycle?**
+
+The difference between a fragment and an activity is the way they are stored in the back stack. By default, the Activity is added at the top of the back stack, in order to be able to be called by the user on back press. If we want the same behavior by the fragment, we need to explicitly call addToBackStack().
+
+**Is there a correlation between the activity's and the fragment's lifecycle?**
+
+Yes. Each lifecysle callback for the activity results in a similar callback for each fragment.
+
+**In comparison to an activity, are there additional lifecysle callbacks for the fragment? If so, what shich are they?**
+
+Yes. They are onAttach(), onCreateView(), onActivityCreated(), onDestroyView(), and onDetach().
+
+## **Services**
+
+**What is a Service?**
+
+A Service is a component of the application that lets you handle long-term operations in the background. A Service does not have a user interface. A Service is NOT a thread, and does not run on a separate thread.
+
+**Which are the basic forms a service takes?**
+
+The basic forms a service takes are started and bound. Started wthin an activity, for example, via startService(). A service may continue running even after the component it started from is destroyed. Bound allows application components to bind to it. The bound service is dependent of the component it is in.
+
+**How long does a bound service run for?**
 
