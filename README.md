@@ -384,3 +384,50 @@ No, by default it runs in the main thread of that application.
 **When a service is created, why is it better to extend IntentService rather than Service?**
 
 Because IntentService creates a default worker thread that executes all the intents, whereas in the Service you create a new thread in which to do all the services' work slowing the work done in the main thread.
+
+## **Broadcast Receivers**
+
+**What is a Brodacast Receiver?**
+
+A Broadcast Receiver is an Android component which allows yo to register for system or application events. All registered receivers for an event are notified by the Android runtime once this event happens.
+
+**What is an implicit broadcast?**
+
+An implicit broadcast is a trigger that declares an event instead of calling a specific app. This causes memory-thrashing.
+
+**What is a system broadcast?**
+
+A system . broadcast is a broadcast sent automatically to all apps thats are subscribed to receive the event.
+
+**How do you register a receiver?**
+
+You register a receiver with Static Registration in the manifest file and you can also do it with Dynamic Registration  wia the Context.registerReceiver() method.
+
+**Which method is called by the Android System id the event for which the broadcast receiver has registered happens?**
+
+The onReceive() methos is called.
+
+**How can you perform a broadcast via a pending intent?**
+
+You need to get a PendingIntent via the getBroadcst() method of the PendingIntent class.
+
+**Which object wraps the broadcast message?**
+
+The message is wrapped by the Intent object.
+
+**How can you restrict a broadcast?**
+
+You can restrict a broadcast with a permission. You can enforce restrictions on either the sender or the receiver of a broadcast.
+
+**Is it a good idea to broadcast sensitive information using an implicit intent?**
+
+No. Information broadcasted using an implicit intent can be read by any app that registers to receive the broadcast.
+
+**Is it a good idea to start activities from broadcast receivers?**
+
+No, because in such way the user experience is jarring, specially if there is more than one receiver. It is better to display a notification.
+
+## **Content Providers**
+
+
+
