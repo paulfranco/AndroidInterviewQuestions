@@ -367,3 +367,20 @@ The basic forms a service takes are started and bound. Started wthin an activity
 
 **How long does a bound service run for?**
 
+A bound service runs for as long as there is a component bound to it.
+
+**Should a service be declared in order to be used?**
+
+Yes, in the manifest, within the service element, a child of application.
+
+**What is the difference between stopSelf() and stopService() in a service's context?**
+
+stopSelf() is called by the service itself when the job it was created for is done. stopService() is called by another component, in order to to stop the service.
+
+**Does the service run in a thread separated from the UI?**
+
+No, by default it runs in the main thread of that application.
+
+**When a service is created, why is it better to extend IntentService rather than Service?**
+
+Because IntentService creates a default worker thread that executes all the intents, whereas in the Service you create a new thread in which to do all the services' work slowing the work done in the main thread.
