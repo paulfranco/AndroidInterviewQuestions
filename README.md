@@ -429,5 +429,10 @@ No, because in such way the user experience is jarring, specially if there is mo
 
 ## **Content Providers**
 
+**What does a Content Provider manage?**
+
+Access to data.
+
+
 
 
