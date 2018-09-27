@@ -433,6 +433,10 @@ No, because in such way the user experience is jarring, specially if there is mo
 
 Access to data.
 
+**How is is the data in a relational database presented?**
+
+In rows (each row is an instance of some type of data the provider collects) and columns (each column in the row represents an individual piece of data collected for an instance).
+
 
 
 
