@@ -479,4 +479,12 @@ The SAF makes it simple for users to browse and open documents, images, and othe
 
 ## **Permanent Data Storage**
 
+**Which are the ways to store data permanently in Android?**
+
+Using Shared Preferences, Internal Storage, External Storage, SQLite Databases, and via Network Connection.
+
+**What type of data can be saved via Shared Preferences?**
+
+Primative data types (booleans, floats, ints, longs, and strings). The data is stored as key-value pairs. In order to use shared preferences, you have to call the method getSharedPreferences() which returns a SharedPreference intance.
+
 
