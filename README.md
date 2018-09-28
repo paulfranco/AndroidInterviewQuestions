@@ -437,6 +437,36 @@ Access to data.
 
 In rows (each row is an instance of some type of data the provider collects) and columns (each column in the row represents an individual piece of data collected for an instance).
 
+**Which application layer does a content provider coordinate access to?**
 
+To the data layer of your application.
+
+**Which object in your application' context is used when you want to access data in a content provider?**
+
+The ContentResoluver object.
+
+**How is data identified in a provider?**
+
+With a content URI (Uniform Resource Identifier).
+
+**What kind of permissions does your application need in order to retrieve data from the provider?**
+
+Your application needs read access permission.
+
+**Which object contains the columns specified by the query's projection for the rows that match the query's selection criteria?**
+
+The Cursor object returned from the ContentResolver.query() client method.
+
+**When is batch access to a provider useful?**
+
+It is useful for inserting a large number of rows, or for inserting rows in multiple tables in the same method call.
+
+**Where are the URI permissions defined?**
+
+In the manifest, using the android.grantPermission attribute of the provider element.
+
+**What is a class that defines constants which help applications work with content URIs, column names, intent actions, and other features of a content provider called?
+
+Such a class is called a Contract Class.
 
 
