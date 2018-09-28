@@ -487,4 +487,6 @@ Using Shared Preferences, Internal Storage, External Storage, SQLite Databases, 
 
 Primative data types (booleans, floats, ints, longs, and strings). The data is stored as key-value pairs. In order to use shared preferences, you have to call the method getSharedPreferences() which returns a SharedPreference intance.
 
+**By default, what is the status of the files that are saved directly in the device's internal storage?**
 
+By default these files are private to the application which means that other applications cannot access them. When the application is uninstalled, the file are removed as well.
