@@ -469,4 +469,14 @@ In the manifest, using the android.grantPermission attribute of the provider ele
 
 Such a class is called a Contract Class.
 
+**Which database is used by Android's own providers to store table-oriented data?**
+
+The SQLite database API. The SQLiteOpenHelper class helpd you create databases, and the SQLiteDatabase class is the base class for accessing databases.
+
+**What does the Storage Access Framework do?**
+
+The SAF makes it simple for users to browse and open documents, images, and other files accross all of their preferred document storage providers.
+
+## **Permanent Data Storage**
+
 
