@@ -490,3 +490,17 @@ Primative data types (booleans, floats, ints, longs, and strings). The data is s
 **By default, what is the status of the files that are saved directly in the device's internal storage?**
 
 By default these files are private to the application which means that other applications cannot access them. When the application is uninstalled, the file are removed as well.
+
+**What is specific for the External Storage option?**
+
+You need to acquire the respective permission (to be declared in the manifest). For example READ_EXTERNAL_STORAGE and WRITE_EXTERNAL_STORAGE (implicitly acquires the READ permission as well). Files can be stored on the SD card. Files can be stored in an internal (but not removable) storage. Before going for a particular media, you need to check if it is available. By default, the files can be accessed from other apps.
+
+**What is the object that is always returned by an executed SQLite Query?**
+
+A Cursor that points to all the rows found by the query.
+
+**Can an SQLite database be debugged in Android?**
+
+Yes. It can be debugged via an sqlite3 database tool.
+
+## **Resources**
