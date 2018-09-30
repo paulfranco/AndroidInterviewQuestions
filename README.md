@@ -504,3 +504,7 @@ A Cursor that points to all the rows found by the query.
 Yes. It can be debugged via an sqlite3 database tool.
 
 ## **Resources**
+
+**Why do the resource need to be internalized?**
+
+Alternative resource may be provided for different devices. They can be maintained independently, and different languages may be implemented.
