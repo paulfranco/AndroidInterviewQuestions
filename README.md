@@ -508,3 +508,22 @@ Yes. It can be debugged via an sqlite3 database tool.
 **Why do the resource need to be internalized?**
 
 Alternative resource may be provided for different devices. They can be maintained independently, and different languages may be implemented.
+
+**Where are the element's IDs stored?**
+
+They are stored in the projects R class.
+
+**Enumerate some of the sub-directories within the res directory**
+
+Color, Drawable, Layout, Values, Raw, and Mipmap.
+
+**What are 9 patch images?**
+
+They are a stretchable bitmap image that are automatically resized to fit the contents of the View. They are usually used for the background of Buttons.
+
+**What alternative resources can be provided for the screen orientation?**
+
+Port: when the device is in portrait orientation. Land: when the device is in landscape orientation.
+
+
+
