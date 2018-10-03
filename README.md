@@ -525,5 +525,12 @@ They are a stretchable bitmap image that are automatically resized to fit the co
 
 Port: when the device is in portrait orientation. Land: when the device is in landscape orientation.
 
+**What is an alias resource?**
+
+This is the case when we have a resource we wanto use for more than one device configuration and at the same time not to set it as a default one. An alias of an existing drawable file is created via the <bimap> element. An alias of an existing layout file via the <merge> element.
+  
+**What is the R class in your application?**
+
+
 
 
