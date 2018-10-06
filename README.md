@@ -542,4 +542,4 @@ In the class's code, using the R-reference: R.string.appname. In the xml file wi
 
 the 'local" qualifier almost always takes the highest precedence.
 
-
+## **Layouts**
