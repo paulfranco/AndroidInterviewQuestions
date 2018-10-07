@@ -564,6 +564,12 @@ Margin is the space left between the elements. Padding is the space between the 
 
 The layout can be populated with view at runtime, using an Adapter. The Adapter binds data to the view.
 
-**What is a viewGroup?**
+**What is a ViewGroup?**
 
 A ViewGroup is the base class for Layouts. It can be defined as an invisible container. It holds Views and ViewGroups. Example: RelativeLayout is the ViewGroup that contains Button(which are Views), and other Layouts.
+
+**How are the children within the Linear Layout aligned?**
+
+All of them are defined and located in a single direction. The direction can either be Vertical or Horizontal. The oriantation can be set via the "orientation" attribute.
+
+
