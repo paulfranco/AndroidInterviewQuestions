@@ -543,3 +543,27 @@ In the class's code, using the R-reference: R.string.appname. In the xml file wi
 the 'local" qualifier almost always takes the highest precedence.
 
 ## **Layouts**
+
+**How can a layout be declared?**
+
+A layout can be declared in the xml file or programmatically at runtime.
+
+**How many root elements can an xml file have?**
+
+Only one. The type must be other View or ViewGroup object.
+
+**What do the at- symbol and the plus sign mean in the element's ID declaration?**
+
+Example: android:id="@+id/btnNext". The at-symbol: The xml parse is indicated that an id string is defined. The plus-sign: "please add the new resource reference to the resource file".
+
+**What is the difference between Margin and Padding?**
+
+Margin is the space left between the elements. Padding is the space between the content and the outside border.
+
+**How should a layout whose content is dynamic be built?**
+
+The layout can be populated with view at runtime, using an Adapter. The Adapter binds data to the view.
+
+**What is a viewGroup?**
+
+A ViewGroup is the base class for Layouts. It can be defined as an invisible container. It holds Views and ViewGroups. Example: RelativeLayout is the ViewGroup that contains Button(which are Views), and other Layouts.
