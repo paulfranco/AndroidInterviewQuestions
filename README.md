@@ -572,4 +572,27 @@ A ViewGroup is the base class for Layouts. It can be defined as an invisible con
 
 All of them are defined and located in a single direction. The direction can either be Vertical or Horizontal. The oriantation can be set via the "orientation" attribute.
 
+**What is the purpose of the layout weight attribute?**
+
+It specifies how much of the extra space in the layout to be allocated to the View. It assigns an "importance" value to a view. Example: Space assigned to child = (child's individual weight)/(sum of weight of every child in Linear Layout)
+
+**What is the default position of the children within the RelativeLayout?**
+
+Top-Left of the layout.
+
+**How are the elements visualized within a List View?**
+
+The List View elements look like a list of scrollable elements. The design of each row is achieved via the implementation of an adapter.
+
+**What is the difference between a ListView and a RecyclerView?**
+
+The RecyclerView is described as an advanced ListView. As a matter of usage, the RecyclerView implementation is easier tp be achieved. For example: The ViewHolder is the default behavior of the RecyclerView. The items from the list can be easily contolled at runtime (with LayoutManager). The ItemAnimator holds the set of options for adding effects to each of the list items.
+
+**How are the elements visualized within a GridView?**
+
+Here the elements are within a 2-dimensional scrollable grid (as the default way icons are located on the start screen of any device). Most often it is used when we want to build an application as image viewer, ausio or video player.
+
+**What is an Adapter?**
+
+It helps data be transmitted and visualized within a view. Example: ListAdapter defines the layout for individual row of the list and provides data to the ListView via setAdapter() method of the ListView.
 
