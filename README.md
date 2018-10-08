@@ -622,3 +622,27 @@ When specifying the android:inputType, we predefine what keyboard can be used by
 
 We can use AutoCompleteTextView which is a subclass of EditText. The suggestions we want to be visualized need to be defined in a string array as different items. Then we need to set the adapter matching each line of the string array with a line in the field.
 
+**What is the difference in the visualization between the Radio Buttons and the Spinner?**
+
+The Radio Buttons shows options one to another. The Spinner shows the options one under another.
+
+**What is the Toggle Button usually used for?**
+
+The Toggle Button is usually used to provide the user with an option to set a particualar setting ON or OFF.
+
+**When are pickers typically used?**
+
+In the context of dates - when the user is provided with the opportunity to choose a particular time or date.
+
+## **Menu, Settings, Dialogs**
+
+**What collection holds the menu items for an activity?**
+
+The options menu.
+
+**How are the different menu items stored?**
+
+As different item elements within the menu element.
+
+**What is the Options Menu used for?**
+
