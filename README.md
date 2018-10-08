@@ -596,3 +596,29 @@ Here the elements are within a 2-dimensional scrollable grid (as the default way
 
 It helps data be transmitted and visualized within a view. Example: ListAdapter defines the layout for individual row of the list and provides data to the ListView via setAdapter() method of the ListView.
 
+## **Input Controls**
+
+**What can a button consist of?**
+
+Text, Icon, or Text and Icon.
+
+**What is the alternative of android:onClick attribute?**
+
+The alternative is to set an OnClickListener programmatically. 
+
+**How can you make a borderless button?**
+
+In the xml of the control when adding style="?android:attr/borderlessButtonStyle".
+
+**If you want to store the user's input in a field, what type of Input Control is used?**
+
+EditText
+
+**How can the data entered in the EditText be restricted and required?**
+
+When specifying the android:inputType, we predefine what keyboard can be used by the user.
+
+**How can the user be provided with input auto complete suggestions?**
+
+We can use AutoCompleteTextView which is a subclass of EditText. The suggestions we want to be visualized need to be defined in a string array as different items. Then we need to set the adapter matching each line of the string array with a line in the field.
+
