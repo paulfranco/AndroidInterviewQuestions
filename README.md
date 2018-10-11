@@ -646,4 +646,4 @@ As different item elements within the menu element.
 
 **What is the Options Menu used for?**
 
-Here we can add actions and other options that are relevant to the current activity context (search, share, star).
+Here we can add actions and other options that are relevant to the current activity context (For Example: search, share, star).
