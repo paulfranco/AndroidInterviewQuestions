@@ -678,6 +678,12 @@ Alert Dialog, Progress Dialog, Date Picker Dialog, and the Time Picker Dialog.
 
 ## **Threads**
 
+**Describe the "Main" thread**
 
+The Main thread is created when the application is launched and is usually referred to as the UI thread. All components, running in the same process, are instantiated in the UI thread. The Android Ui toolkit may be accessed only from the Main thread.
+
+**When may the UI thread be blocked?**
+
+When all of the processes in an application happen on one thread or when long operations are performed on the UI thread (example: DB queries and Network access).
 
 
