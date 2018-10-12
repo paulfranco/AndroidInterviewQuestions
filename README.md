@@ -686,4 +686,26 @@ The Main thread is created when the application is launched and is usually refer
 
 When all of the processes in an application happen on one thread or when long operations are performed on the UI thread (example: DB queries and Network access).
 
+**What are the "Background" or "Worker" threads?
+
+They are extra threads, different from the UI thread, wheere time-consuming operations can be ran.
+
+**How can you start a new thread?**
+
+You can start a new thread by creating a new instance of Runable or using AsyncTask.
+
+**How does AsyncTask work?**
+
+It is defined by a computation that runs on a background thread. Its result is published on the UI thread.
+
+**How is AsyncTask defined?**
+
+Via 3 types: Params - what is going to be sent when the execution is started. Progress - the way the progress is to be stored during the execution. Result - the result expected from the whole computation itself.
+
+**Which phases does an execution go through when implementing AsyncTask?**
+
+onPreExecute(), doInBackground(params...), onProgressUpdate(Progress...), onPostExecute(Result).
+
+
+
 
