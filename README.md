@@ -647,3 +647,37 @@ As different item elements within the menu element.
 **What is the Options Menu used for?**
 
 Here we can add actions and other options that are relevant to the current activity context (For Example: search, share, star).
+
+**What is a contextual menu?**
+
+The actions specified within the Contextual Menu are connected to specific items, no to the whole activity.
+
+**What is a popup menu?**
+
+It is a type of Menu that appears below the clicked/hovered element (when there is enough space) or above it (when there isn't enough space).
+
+**What object is used in order to specify a particular setting to the User?**
+
+The Preference object.
+
+**What is a dialog?**
+
+A dialog is a small window that prompts the user to make a decision (yes/no) or enter additional information (example: set time).
+
+**How many buttons can be added in an Alert Dialog?**
+
+Up to 3.
+
+**How are the buttons in the Alert Dialog ordered?**
+
+Positive, Neutral, Negative.
+
+**What dialog boxes are supported in Android?**
+
+Alert Dialog, Progress Dialog, Date Picker Dialog, and the Time Picker Dialog.
+
+## **Threads**
+
+
+
+
