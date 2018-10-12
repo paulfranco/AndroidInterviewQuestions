@@ -706,6 +706,32 @@ Via 3 types: Params - what is going to be sent when the execution is started. Pr
 
 onPreExecute(), doInBackground(params...), onProgressUpdate(Progress...), onPostExecute(Result).
 
+## **Notifications and Search Interface**
+
+**What is a notification?**
+
+A notification is a message that appears on the User's screen. It is not part of the basic UI design of the application. The issued notification appears first in the notification area and when it is chosen it goes to the notification drawer.
+
+**What are the obligatory parts that each notification object should have?**
+
+A small icon, a title, and a detailed text.
+
+**How many actions should be added to a notification?**
+
+At least one, in order for the user to be redirected to the corresponsing activity.
+
+**Can you control how a set of notifications are going to be shown?**
+
+Yes, you can control them by adding priority.
+
+**What are the options to add a search input in the app?**
+
+You can add a serach input in the app by adding a search dialog at the top of the screen or by adding a search widget.
+
+**How can you grant the user the opportunity to search the app's data?**
+
+This feature is not supported by the search framework. However, there are specific ways for the different types of data APIs. For example: if we have an SQLite DB, the android.database.sqlite APIs should be used.
+
 
 
 
