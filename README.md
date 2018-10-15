@@ -730,7 +730,7 @@ You can add a serach input in the app by adding a search dialog at the top of th
 
 **How can you grant the user the opportunity to search the app's data?**
 
-This feature is not supported by the search framework. However, there are specific ways for the different types of data APIs. For example: if we have an SQLite DB, the android.database.sqlite APIs should be used. Th
+This feature is not supported by the search framework. However, there are specific ways for the different types of data APIs. For example: if we have an SQLite DB, the android.database.sqlite APIs should be used. 
 
 
 
