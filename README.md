@@ -732,6 +732,10 @@ You can add a serach input in the app by adding a search dialog at the top of th
 
 This feature is not supported by the search framework. However, there are specific ways for the different types of data APIs. For example: if we have an SQLite DB, the android.database.sqlite APIs should be used. 
 
+## **Other**
 
+**What are the different Android Components?**
+
+Activities, Intents, Services, Broadcast Receivers, and Content Providers.
 
 
