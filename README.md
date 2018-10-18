@@ -738,4 +738,7 @@ This feature is not supported by the search framework. However, there are specif
 
 Activities, Intents, Services, Broadcast Receivers, and Content Providers.
 
+**What is a Toast in Android?**
+
+Android Toast can be used to display information for the short period of time. A toast contains message to be displayed quickly and disappears after sometime.
 
