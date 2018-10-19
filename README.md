@@ -66,6 +66,10 @@ The Application and Framework layers are written in Java. The Drivers and the li
 
 Android may run on all electronic devices if the support Android hardware configurations. Example: cars, phones, laptops, watches, tvs, head phones, and so on.
 
+**What is Armv7?**
+
+There are 3 CPU architectures in Android. ARMv7 is the most common as it is optimised for battery consumption. ARM64 is an evolved version of that which supports 64-bit processing for more powerful computing. ARMx86, is the least used for these three, since it is not battery friendly. It is more powerful than the other two.
+
 ## **Android Studio**
 
 **Does Android Studio support version control Systems?**
