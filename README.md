@@ -750,3 +750,11 @@ Activities, Intents, Services, Broadcast Receivers, and Content Providers.
 
 Android Toast can be used to display information for the short period of time. A toast contains message to be displayed quickly and disappears after sometime.
 
+**What is an Executor?**
+
+An Executor is an object that executes submitted Runnable tasks. This interface provides a way of decoupling task submission from the mechanics of how each task will be run, including details of thread use, scheduling, etc. 
+
+**When is an Executor normalll used?**
+
+Ab executor is normally used instead of explicitly creating threads.
+
