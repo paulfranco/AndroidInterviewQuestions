@@ -367,7 +367,7 @@ Yes. They are onAttach(), onCreateView(), onActivityCreated(), onDestroyView(), 
 
 **What is a Service?**
 
-A Service is a component of the application that lets you handle long-term operations in the background. A Service does not have a user interface. A Service is NOT a thread, and does not run on a separate thread.
+A Service is a component of the application that lets you handle long-term operations in the background. A Service does not have a user interface. A Service is NOT a thread, and does not run on a separate thread. Services are Android Framework Components meant for running background tasks that don't need a visual component.
 
 **Which are the basic forms a service takes?**
 
