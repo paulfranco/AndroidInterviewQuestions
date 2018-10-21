@@ -405,7 +405,7 @@ A Foreground Service is a service the user is actively aware of via a non-dismis
 
 **What is a Brodacast Receiver?**
 
-A Broadcast Receiver is an Android component which allows yo to register for system or application events. All registered receivers for an event are notified by the Android runtime once this event happens.
+A Broadcast Receiver is an Android component which allows you to register for system or application events. All registered receivers for an event are notified by the Android runtime once this event happens.
 
 **What is an implicit broadcast?**
 
