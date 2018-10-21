@@ -393,6 +393,10 @@ No, by default it runs in the main thread of that application.
 
 Because IntentService creates a default worker thread that executes all the intents, whereas in the Service you create a new thread in which to do all the services' work slowing the work done in the main thread.
 
+**What are the ways to start a Service?**
+
+There are 3 ways to start a service : startService(), using a scheduler, and bindService().
+
 ## **Broadcast Receivers**
 
 **What is a Brodacast Receiver?**
