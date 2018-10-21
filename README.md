@@ -758,3 +758,6 @@ An Executor is an object that executes submitted Runnable tasks. This interface 
 
 Ab executor is normally used instead of explicitly creating threads.
 
+**When should you use a Service vs using a Loader?**
+
+If the background task is loading information that will only be used in the activity its a good candidate for a Loader. With a Loader it is easy to make user interface changes and communicate with an Activity. A service should be used when the task that you are doing is decoupled from the user interface. A service exists even when there is no user interface.
