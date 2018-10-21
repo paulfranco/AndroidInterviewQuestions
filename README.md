@@ -397,6 +397,10 @@ Because IntentService creates a default worker thread that executes all the inte
 
 There are 3 ways to start a service : startService(), using a scheduler, and bindService().
 
+**What is a Foreground Service?**
+
+A Foreground Service is a service the user is actively aware of via a non-dismissible ongoing notification. They are tipically used to show the user the real time progress of a long running operation. Android will prioritize foreground services even if the system is memory constrained.
+
 ## **Broadcast Receivers**
 
 **What is a Brodacast Receiver?**
