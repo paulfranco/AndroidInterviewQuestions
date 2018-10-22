@@ -165,6 +165,10 @@ The Translations Editor provides a consolidated and editable view of all of your
 
 You can use Android App Links - HTTP URLS that bring users directly to specific content in your Android App.
 
+**What is the official development environment used for Android applications?
+
+Android Studio.
+
 ## **The Manifest File**
 
 **How many manifests can an application have?**
