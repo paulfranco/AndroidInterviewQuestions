@@ -777,3 +777,7 @@ Ab executor is normally used instead of explicitly creating threads.
 **When should you use a Service vs using a Loader?**
 
 If the background task is loading information that will only be used in the activity its a good candidate for a Loader. With a Loader it is easy to make user interface changes and communicate with an Activity. A service should be used when the task that you are doing is decoupled from the user interface. A service exists even when there is no user interface.
+
+**What synthesizes speech from text for immediate playback or to create a sound file?**
+
+TextToSpeech. A TextToSpeech instance can only be used to synthesize text once it has completed its initialization.
