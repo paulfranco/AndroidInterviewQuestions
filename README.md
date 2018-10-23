@@ -754,6 +754,10 @@ This feature is not supported by the search framework. However, there are specif
 
 ## **Other**
 
+**Where are the permissions provided by the Android system are specified?
+
+In the AndroidManifest.xml.
+
 **What are the different Android Components?**
 
 Activities, Intents, Services, Broadcast Receivers, and Content Providers.
