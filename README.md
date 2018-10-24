@@ -654,6 +654,10 @@ The Toggle Button is usually used to provide the user with an option to set a pa
 
 In the context of dates - when the user is provided with the opportunity to choose a particular time or date.
 
+**What is a SeekBar?**
+
+A SeekBar is an extension of ProgressBar that adds a draggable thumb. The user can touch the thumb and drag left or right to set the current progress level or use the arrow keys. Placing focusable widgets to the left or right of a SeekBar is discouraged.
+
 ## **Menu, Settings, Dialogs**
 
 **What collection holds the menu items for an activity?**
