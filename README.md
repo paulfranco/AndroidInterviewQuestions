@@ -785,3 +785,7 @@ TextToSpeech. A TextToSpeech instance can only be used to synthesize text once i
 **What does the following code snippet do: mWebView.getSettings().setJavaScriptEnabled(true);?
 
 Requests a WebSettings object and enables JavaScript for WebView.
+
+**What is Android WebView?**
+
+Android WebView is a system component for the Android operating system (OS) that allows Android apps to display content from the web directly inside an application.  
