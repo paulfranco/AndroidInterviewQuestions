@@ -781,3 +781,7 @@ If the background task is loading information that will only be used in the acti
 **What synthesizes speech from text for immediate playback or to create a sound file?**
 
 TextToSpeech. A TextToSpeech instance can only be used to synthesize text once it has completed its initialization.
+
+**What does the following code snippet do: mWebView.getSettings().setJavaScriptEnabled(true);?
+
+Requests a WebSettings object and enables JavaScript for WebView.
