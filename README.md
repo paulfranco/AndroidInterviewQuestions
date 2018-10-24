@@ -786,7 +786,7 @@ If the background task is loading information that will only be used in the acti
 
 TextToSpeech. A TextToSpeech instance can only be used to synthesize text once it has completed its initialization.
 
-**What does the following code snippet do: mWebView.getSettings().setJavaScriptEnabled(true);?
+**What does the following code snippet do: mWebView.getSettings().setJavaScriptEnabled(true);?**
 
 Requests a WebSettings object and enables JavaScript for WebView.
 
