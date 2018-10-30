@@ -793,3 +793,7 @@ Requests a WebSettings object and enables JavaScript for WebView.
 **What is Android WebView?**
 
 Android WebView is a system component for the Android operating system (OS) that allows Android apps to display content from the web directly inside an application.  
+
+**Which Views in this layout should include a contentDescription value?**
+
+Text labels, text-based Buttons and EditTexts don't really need a content description as the screen reader can easily read the text inside. However Images and image-based Buttons do need some explanation to help those who cannot see them well.
