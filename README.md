@@ -6,7 +6,7 @@
 
 Android is a mobile operating system based on the Linux kernel and developed by Google.
 
-**What is DVM?
+**What is DVM?**
 
 DVM stands for Dalvik Virtual Machine which was written by Dan Bornstein. DVM is an Android Virtual Machine for mobile devices. A standard Java compiler turns source code (written as text files) into Bytecode, then compiled into a .dex file that the Dalvik VM can read and use.
 
