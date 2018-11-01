@@ -18,7 +18,7 @@ DVM in comparison to JVM (Java Virtual Machine) is faster. DVM is specifically d
 
 The Android architecture consists of the Linux kernel, Libraries, Android Framework, Android applications.
 
-**What are some of the components that are in the Library layer?** 
+**What are some of the components that are in the Library laye
 
 The DVM, The Media Framework, the SQLite.
 
