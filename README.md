@@ -800,4 +800,5 @@ Text labels, text-based Buttons and EditTexts don't really need a content descri
 
 **Is it possible to create an activity in Android without a user interface?**
 
+Yes, an activity can be created without any user interface. These activities are treated as abstract activities.
 
