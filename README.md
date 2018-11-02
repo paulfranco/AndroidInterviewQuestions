@@ -802,3 +802,4 @@ Text labels, text-based Buttons and EditTexts don't really need a content descri
 
 Yes, an activity can be created without any user interface. These activities are treated as abstract activities.
 
+**There are four Java classes related to the use of sensors on the Android platform. List them and explain the purpose of each.**
