@@ -807,6 +807,9 @@ Yes, an activity can be created without any user interface. These activities are
 The four Java classes related to the use of sensors on the Android platform are:
 
 Sensor: Provides methods to identify which capabilities are available for a specific sensor.
+
 SensorManager: Provides methods for registering sensor event listeners and calibrating sensors.
+
 SensorEvent: Provides raw sensor data, including information regarding accuracy.
+
 SensorEventListener: Interface that defines callback methods that will receive sensor event notifications.
