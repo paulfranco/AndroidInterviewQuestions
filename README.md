@@ -367,6 +367,8 @@ Yes. Each lifecysle callback for the activity results in a similar callback for 
 
 Yes. They are onAttach(), onCreateView(), onActivityCreated(), onDestroyView(), and onDetach().
 
+**How do you supply construction arguments into a Fragment?**
+
 ## **Services**
 
 **What is a Service?**
