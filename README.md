@@ -165,7 +165,7 @@ The Translations Editor provides a consolidated and editable view of all of your
 
 You can use Android App Links - HTTP URLS that bring users directly to specific content in your Android App.
 
-**What is the official development environment used for Android applications?
+**What is the official development environment used for Android applications?**
 
 Android Studio.
 
@@ -368,6 +368,10 @@ Yes. Each lifecysle callback for the activity results in a similar callback for 
 Yes. They are onAttach(), onCreateView(), onActivityCreated(), onDestroyView(), and onDetach().
 
 **How do you supply construction arguments into a Fragment?**
+
+Construction arguments for a Fragment are passed via Bundle using the Fragment#setArgument(Bundle) method. The passed-in Bundle can then be retrieved through the Fragment#getArguments() method in the appropriate Fragment lifecycle method.
+
+It is a common mistake to pass in data through a custom constructor. Non-default constructors on a Fragment are not advisable because the Fragment may be destroyed and recreated due to a configuration change (e.g. orientation change). Using #setArguments()/getArguments() ensures that when the Fragment needs to be recreated, the Bundle will be appropriately serialized/deserialized so that construction data is restored.
 
 ## **Services**
 
