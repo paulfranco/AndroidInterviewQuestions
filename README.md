@@ -373,6 +373,10 @@ Construction arguments for a Fragment are passed via Bundle using the Fragment#s
 
 It is a common mistake to pass in data through a custom constructor. Non-default constructors on a Fragment are not advisable because the Fragment may be destroyed and recreated due to a configuration change (e.g. orientation change). Using #setArguments()/getArguments() ensures that when the Fragment needs to be recreated, the Bundle will be appropriately serialized/deserialized so that construction data is restored.
 
+**Do Fragments have the same lifecycle as their host activity?**
+
+No but it's important to note that a Fragment must always be embedded in an activity and the fragment's lifecycle is directly affected by the host activity's lifecycle. For example, when the activity is paused, so are all fragments in it, and when the activity is destroyed, so are all fragments.
+
 ## **Services**
 
 **What is a Service?**
