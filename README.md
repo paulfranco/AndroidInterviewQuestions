@@ -377,6 +377,10 @@ It is a common mistake to pass in data through a custom constructor. Non-default
 
 No but it's important to note that a Fragment must always be embedded in an activity and the fragment's lifecycle is directly affected by the host activity's lifecycle. For example, when the activity is paused, so are all fragments in it, and when the activity is destroyed, so are all fragments.
 
+**Why are Fragments useful?**
+
+They are reusable. They can be used to build a flexible UI. You can dynamically add or remove them during runtime.
+
 ## **Services**
 
 **What is a Service?**
