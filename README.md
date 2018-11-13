@@ -4,7 +4,7 @@
 
 **What is Android?**
 
-Android is a mobile operating system based on the Linux kernel and developed by Google.
+Android is a mobile operating system based on the Linux kernel and developed by Googl
 
 **What is DVM?**
 
