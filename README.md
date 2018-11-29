@@ -774,7 +774,7 @@ This feature is not supported by the search framework. However, there are specif
 
 **What is an Intent Stub?**
 
-An Intent Stub is a small piece of code that acts as a fake response to an intent call during a test. The benefit of using a stub is that it gives us consistent results and allows us to focus testing just one action at a time.
+An Intent Stub is a small piece of code that acts as a fake response to an intent call during a test. The benefit of using a stub is that it gives us consistent results and allows us to focus testing just one action at a time. It is useful for testing Intent Responses.
 
 ## **Other**
 
