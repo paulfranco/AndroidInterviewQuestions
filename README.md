@@ -770,6 +770,12 @@ You can add a serach input in the app by adding a search dialog at the top of th
 
 This feature is not supported by the search framework. However, there are specific ways for the different types of data APIs. For example: if we have an SQLite DB, the android.database.sqlite APIs should be used. 
 
+## **Testing**
+
+**What is an Intent Stub?**
+
+An Intent Stub is a small piece of code that acts as a fake response to an intent call during a test. The benefit of using a stub is that it gives us consistent results and allows us to focus testing just one action at a time.
+
 ## **Other**
 
 **Where are the permissions provided by the Android system are specified?**
