@@ -776,6 +776,10 @@ This feature is not supported by the search framework. However, there are specif
 
 An Intent Stub is a small piece of code that acts as a fake response to an intent call during a test. The benefit of using a stub is that it gives us consistent results and allows us to focus testing just one action at a time. It is useful for testing Intent Responses.
 
+**When is an app idle?**
+
+An app is idle when there are no UI events in the current message queue and there are no more tasks in the default AsyncTask thread pool.
+
 ## **Other**
 
 **Where are the permissions provided by the Android system are specified?**
